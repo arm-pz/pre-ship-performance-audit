@@ -1,0 +1,9 @@
+{
+  "name": "pre-ship-performance-audit",
+  "version": "0.1.0",
+  "description": "Audits and fixes web app performance before launch with four read-only subagents and same-condition mobile Lighthouse medians, proving each fix with before/after numbers.",
+  "author": {
+    "name": "Abdul Rahman P Z"
+  },
+  "repository": "https://github.com/arm-pz/pre-ship-performance-audit"
+}
