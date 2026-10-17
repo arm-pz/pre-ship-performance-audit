@@ -48,7 +48,9 @@ This repo is also a Claude Code plugin (`.claude-plugin/plugin.json`); it is lis
 This family covers pre-launch checks; each stays in its lane:
 
 - [web-preflight](https://github.com/arm-pz/web-preflight) — lightweight check for accidental exposure of secrets, source and admin surfaces.
-- pre-ship-security-red-team — authorized abuse and authorization testing (local skill; repo pending).
+- [pre-ship-security-red-team](https://github.com/arm-pz/pre-ship-security-red-team) — authorized abuse and authorization testing: 14 checks executed with captured evidence, then fixed and rerun.
+
+Findings cross-reference by ID (`PERF-03`, `PREFLIGHT-01`, `REDTEAM-S02`) rather than merging verdicts; each skill defines the shared five-field record in its own `SKILL.md`.
 - **This skill is about speed.** Despite similar names, it is unrelated to other authors' generic "performance-audit" skills; the difference here is the four read-only subagent audits plus measured same-condition before/after medians.
 
 ## Example output
