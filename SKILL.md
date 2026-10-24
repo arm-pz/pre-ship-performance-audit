@@ -1,6 +1,6 @@
 ---
 name: pre-ship-performance-audit
-description: Audit and fix real-world web app performance before launch using four independent read-only subagent audits covering images and fonts, frontend bundles and rendering, database queries and APIs, and server, network and user-flow measurement. Use when asked to find and fix slow pages, heavy bundles, N+1 queries, missing indexes, unoptimized images or fonts, or launch-readiness performance in an application the user owns or is authorized to maintain. Requires same-condition Lighthouse baselines and post-fix medians so claims are measured, not implied by code review. Speed only - for authorization and abuse testing use pre-ship-security-red-team, for exposed secrets and source files use web-preflight.
+description: Audit and fix real-world web app performance before launch using four independent read-only subagent audits covering images and fonts, frontend bundles and rendering, database queries and APIs, and server, network and user-flow measurement. Use when asked to find and fix slow pages, heavy bundles, N+1 queries, missing indexes, unoptimized images or fonts, or launch-readiness performance in an application the user owns or is authorized to maintain. Requires same-condition Lighthouse baselines and post-fix medians so claims are measured, not implied by code review. Speed only. Not for authorization and abuse testing (use pre-ship-security-red-team) or exposed secrets and source files (use web-preflight).
 ---
 
 # Pre-Ship Performance Audit
